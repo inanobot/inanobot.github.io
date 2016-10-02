@@ -110,8 +110,8 @@
 	
 	// Get canvas
 	canvas = document.getElementById("coinAnimation");
-	canvas.width = 100;
-	canvas.height = 100;
+	canvas.width = 600;
+	canvas.height = 600;
 	
 	// Create sprite sheet
 	coinImage = new Image();	
@@ -119,16 +119,16 @@
 	// Create sprite
 	coin = sprite({
 		context: canvas.getContext("2d"),
-		width: 1000,
-		height: 100,
+		width: 10200,
+		height: 600,
 		image: coinImage,
-		numberOfFrames: 10,
+		numberOfFrames: 17,
 		ticksPerFrame: 4
 	});
 	
 	// Load sprite sheet
 	coinImage.addEventListener("load", gameLoop);
-	coinImage.src = "images/coin-sprite-animation.png";
+	coinImage.src = "images/index/rover.png";
 
 } ());
 

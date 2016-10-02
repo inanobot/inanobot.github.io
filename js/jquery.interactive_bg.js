@@ -19,8 +19,8 @@
     strength: 25,
     scale: 1.05,
     animationSpeed: "100ms",
-    contain: false,
-    wrapContent: true
+    contain: true,
+    wrapContent: false
   };  
   
   $.fn.interactive_bg = function(options){
@@ -74,8 +74,8 @@
                  accY = Math.round(event.accelerationIncludingGravity.y*10) / 10,
                  xA = -(accX / 10) * settings.strength,
                  yA = -(accY / 10) * settings.strength,
-                 newX = -(xA*20),
-                 newY = -(yA*20);
+                 newX = -(xA*2),
+                 newY = -(yA*2);
                  
                  el.find("> .ibg-bg").css({
                    "-webkit-transform": "matrix(" + settings.scale + ",0,0," + settings.scale + "," + newX + "," + newY + ")",
@@ -144,9 +144,9 @@
           });
         });
       }
-    }); 
+    });
+    
   }
-
   
   
 }(window.jQuery);

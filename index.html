@@ -71,64 +71,72 @@
 	        </div>
 	    </header>
     <!--/#header-->  
-        
+    <section id="home-slider">    
         <div class="container">
             <div class="row">
-                <!--div class="main-slider"> 	
+                <div class="main-slider"> 	
                 	
-                	<div class="bg1 bg slider-house" data-ibg-bg="bg1.png" style= "position: absolute; height:100%; width: 70%"></div>
-                	<div class="bg1 bg slider-hill" data-ibg-bg="boy.png" style= "position: absolute; height: 70%; left: 5%"></div>
-                	<div class="bg2 bg slider-sun" data-ibg-bg="bg2.png" style= "right: 2px; bottom:3px"></div>
-			    	<div class="bg3 bg slider-birds1" data-ibg-bg="bg3.png" style= ""></div>
-			    	<div class="bg4 bg slider-birds2" data-ibg-bg="drug.png" style= "width: 100%; bottom: 200px"></div>
-			    	
-			    	<div class="bg5 bg slider-birds2" data-ibg-bg="liposome.png" style= "width: 50%; bottom: 10px"></div>			    	
-			    	
-                <!--coin animation starts
-                    <canvas id="coinAnimation"></canvas>
-	        <script src="js/sprite-animation-demo.js"></script>
-	        	coin animation ends-->
-	    	<script type="text/javascript">
-	        $(".bg1").interactive_bg({
-	          strength: 2,
-	          scale: 1,
-	          animationSpeed: "5ms",
-	          contain: false
-	        });
-	        
-	        $(".bg2").interactive_bg({
-	          strength: 25,
-	          scale: 1,
-	          animationSpeed: "50ms",
-	          contain: false
-	        });
-	        
-	        $(".bg3").interactive_bg({
-	          strength: 25,
-	          scale: 1.05,
-	          animationSpeed: "50ms",
-	        });
-	        
-	        $(".bg4").interactive_bg({
-	          strength: 25,
-	          scale: 1.05,
-	          animationSpeed: "200ms",
-	        });
+                	<div class="bg1 bg slider-house" data-ibg-bg="images/index/boy.png" style= "position: absolute; left:-80px; top:100px"></div>
+                	<div class="bg1 bg slider-hill" data-ibg-bg="images/index/bg1.png" style= "position: absolute; width:60%; height:60%; right:100px"></div>
+                	
+                	<div class="bg2 bg slider-sun" data-ibg-bg="images/index/bg2.png" style= "right:-80px;"></div>	
 
-	         $(".bg5").interactive_bg({
-	          strength: 25,
-	          scale: 1,
-	          animationSpeed: "50ms",
-	        });
-	      </script>
+			    	<div class="slider-birds2" style= "top: -150px; right:-100px"><canvas id="coinAnimation"></canvas></div>	
+
+			    	<div class="bg5 bg slider-birds2" data-ibg-bg="images/index/liposome.png" style= "top: 170px; right:200px"></div>
+			    	<div class="bg3 bg slider-birds1" data-ibg-bg="images/index/bg3.png" style= "top: -50px"></div>
+			    	<div class="bg4 bg slider-birds2" data-ibg-bg="images/index/drug.png" style= "right:500px"></div>
+			    	
+			    	
+			       	    	
+			    	
+		               
+			    	
                 </div>
+                <script src="js/sprite-animation-demo.js"></script>	
+                <script type="text/javascript">
+			        $(".bg1").interactive_bg({
+			          strength: 2,
+			          scale: 1,
+			          animationSpeed: "5ms",
+			          contain: true
+			        });
+			        
+			        $(".bg2").interactive_bg({
+			          strength: 25,
+			          scale: 1,
+			          animationSpeed: "50ms",
+			          contain: false
+			        });
+			        
+			        $(".bg3").interactive_bg({
+			          strength: 25,
+			          scale: 1.05,
+			          animationSpeed: "50ms",
+			        });
+			        
+			        $(".bg4").interactive_bg({
+			          strength: 25,
+			          scale: 1.05,
+			          animationSpeed: "200ms",
+			        });
+
+			         $(".bg5").interactive_bg({
+			          strength: 25,
+			          scale: 1,
+			          animationSpeed: "50ms",
+			        });
+			      </script>
             </div>
         </div>
         <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+
+    </section>
     
     <!--/#home-slider-->
 		<div class="container">
-			
+		                    
+			        	
 		</div><!-- Container -->
 		    <script type="text/javascript" src="js/jquery.js"></script>
 		    <script type="text/javascript" src="js/bootstrap.min.js"></script>

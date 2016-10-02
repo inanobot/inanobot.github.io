@@ -545,7 +545,7 @@ ul.sub-menu {
   position: relative;
 }
 
-#home-slider .main-sliderr {
+#home-slider .main-slider {
   position: relative;
   height: 750px;
 }
@@ -653,7 +653,7 @@ ul.sub-menu {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  position: statice;
+  position: static;
 }
 
 
