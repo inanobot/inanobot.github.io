@@ -103,27 +103,19 @@
   }
 
   #home-slider .slider-house {
-    width: 250px;
-    right: 90px;
-    bottom: -20px;
+    width: 400px;
   }
 
   #home-slider .slider-sun {
-    right: 255px;
-    bottom: 65px;
-    width: 60px
+    width: 400px
   }
 
   #home-slider .slider-birds1 {
-    right: 320px;
-    bottom: 60px;
-    width: 70px;
+    width: 700px;
   }
 
   #home-slider .slider-birds2 {
-    right: 0;
-    bottom: 90px;
-    width: 80px;
+    width: 800px;
   }
 
   /*Pricing Table*/
@@ -295,12 +287,12 @@
 
   #home-slider .slider-house {
     right: 50%;
-    margin-right: -125px;
+    margin-right: -200px;
   }
 
   #home-slider .slider-sun {
     right: 50%;
-    margin-right: 60px;
+    margin-right: -200px;
   }
 
   #home-slider .slider-birds1 {

@@ -10,12 +10,14 @@
   @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
   @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
   @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+  @import url(https://fonts.googleapis.com/css?family=Hind);
+  @import url(https://fonts.googleapis.com/css?family=Rajdhani);
 
   body {
     background: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Hind', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 22px;
     color: #000;
   }
@@ -53,7 +55,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Rajdhani", sans-serif;
     font-weight: 300;
   }
 
@@ -89,7 +91,6 @@
 
   #action .col-sm-5{
     position: absolute;
-
     top: 0;
     height: 100%;
     right: 0;
@@ -163,8 +164,6 @@
 /*************************
 *******Header******
 **************************/
-
-
 #header{
   margin-bottom: 0;
   padding: 30px 0 60px 0;
@@ -258,6 +257,7 @@
   border: 0;
   padding-top: 20px;
   margin-bottom: 0;
+  font-family: "Rajdhani", sans-serif;
 }
 
 #header .navbar-toggle{
@@ -280,10 +280,10 @@
 
 #header .navbar-nav.navbar-right >li a {
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
   padding: 20px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 
@@ -293,7 +293,7 @@
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
-  color: #00aeef;
+  color: #45BFAD;
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
@@ -312,23 +312,23 @@ ul.sub-menu {
 
 #header .navbar-nav li ul.sub-menu li a{
   color: #818285;
-  padding: 5px 0;
-  font-size: 13px;
+  padding: 5px 0px;
+  font-size: 16px;
   display: block;
   text-transform: capitalize;
 }
 
 #header .navbar-nav li ul.sub-menu li .active{
-  background: #00aeef;
+  background: #FBAA36;
   color: #fff;
   position: relative;
 }
 
 #header .navbar-nav li ul.sub-menu li .active i{
   position: absolute;
-  font-size: 56px;
-  top: -13px;
-  color: #0884d5;
+  font-size: 12px;
+  top: -10px;
+  color: #FBAA36;
 }
 
 #header .navbar-nav li ul.sub-menu li .active .fa-angle-right{
@@ -391,8 +391,6 @@ ul.sub-menu {
 
 #footer {
   padding-bottom: 10px;
-  background-image: url(../images/home/footer1.png);
-  background-repeat: repeat-x;
   background-position: bottom;
   background-size: contain;
 }
@@ -519,10 +517,9 @@ ul.sub-menu {
 }
 
 .copyright-text{
-  margin-top: 70px;
+  margin-top: 50px;
   color: #fff;
   font-size: 16px;
-  padding-bottom: 15px;
 }
 
 .copyright-text a {
@@ -537,11 +534,7 @@ ul.sub-menu {
 *******Home Page******
 **************************/
 #home-slider {
-  background: url(../images/home/slider-dresden.png) 0 100% repeat-x;
-  position: relative;
-}
-
-#home-slider .main-slider {
+  background: url(../images/404-bg.png) 0 100% repeat-x;
   position: relative;
 }
 
@@ -549,7 +542,6 @@ ul.sub-menu {
   position: relative;
   height: 750px;
 }
-
 
 #home-slider .slide-text{
   position: absolute;
@@ -564,6 +556,7 @@ ul.sub-menu {
 
 #home-slider .slider-hill {
   position: absolute;
+  right: 0;
 }
 
 .animate-in .slider-hill {
@@ -609,8 +602,6 @@ ul.sub-menu {
 
 
 #home-slider h1{
-  margin-top: 100px;
-  margin-bottom: 25px;
 }
 
 #home-slider .btn-common {
@@ -642,7 +633,7 @@ ul.sub-menu {
 #action {
   background-image: url(../images/404-bg.png);
   background-repeat: repeat-x;
-  height: 145px;
+  height: 75px;
   background-position: center;
   display: table;
   position: static;
@@ -751,10 +742,11 @@ ul.sub-menu {
 }
 
 #page-breadcrumb {
-  background-image: url(../images/home/under.png);
-  background-color: #fff6e5;;
+  margin-top: -8px;
+  background-image: url(../images/404-bg.png);
+  background-color: #fff6e5;
   background-repeat: repeat-x;
-  height: 145px;
+  height: 100px;
   background-position: center;
   display: table;
   position: static;
@@ -775,7 +767,7 @@ ul.sub-menu {
 }
 
 .single-service img {
-  height: 120px;
+  height: 200px;
 }
 
 .tour-button {
@@ -1238,7 +1230,7 @@ Portfolio with right sidebar
 }
 
 .categories .navbar-stacked li a {
-  font-size: 16px;
+  font-size: 28px;
   color: #6a6a6a;
   padding: 8px 0;
   padding-left: 0;
@@ -1328,12 +1320,12 @@ Portfolio with right sidebar
 
 .sidebar-item .media .media-body h4 a{
   color: #7d7d7d;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .sidebar-item .media .media-body p {
   color: #b4b4b4;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .tag-cloud .nav-pills{
@@ -1347,7 +1339,7 @@ Portfolio with right sidebar
 }
 
 .tag-cloud .nav-pills li a{
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
   padding: 5px 15px;
   background: #bbbbbb;
@@ -1465,7 +1457,7 @@ Portfolio Details
 }
 
 .navbar-default li a{
-  font-size: 12px;
+  font-size: 20px;
   padding: 0;
   padding-right: 15px;
 }
